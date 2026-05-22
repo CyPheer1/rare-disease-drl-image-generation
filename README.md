@@ -2,7 +2,74 @@
 
 > **Recommended GitHub repository name:** `rare-disease-drl-image-generation`
 
-![Project Architecture](assets/architecture.svg)
+## Project Architecture
+
+<p align="center">
+  <img src="assets/architecture.svg" alt="DRL-guided rare disease medical image generation architecture" width="100%">
+</p>
+
+## Notebook Visual Results
+
+These figures were extracted directly from `DRL_RESULT.ipynb` so they are visible on GitHub without opening the notebook.
+
+### HAM10000 Class Imbalance
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_016_03_figure_1_ham10000_diagnostic_class_distribution.png" alt="HAM10000 diagnostic class distribution" width="100%">
+</p>
+
+### Conditional GAN Training Curves
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_042_121_figure_2_conditional_gan_training_loss.png" alt="Conditional GAN training loss" width="49%">
+  <img src="assets/notebook_outputs/cell_042_123_figure_2_conditional_gan_training_loss.png" alt="EMA generator checkpoint quality" width="49%">
+</p>
+
+### Generated cGAN Samples
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_046_01_figure_3_conditional_cgan_samples_by_diagnostic_class.png" alt="Conditional cGAN samples by diagnostic class" width="70%">
+</p>
+
+### Classifier Evaluation
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_056_94_figure_4_rare_aware_resnet18_classifier_confusion_matrix.png" alt="Rare-aware ResNet18 classifier confusion matrix" width="70%">
+</p>
+
+### PPO Training and Quantitative Results
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_072_01_figure_6_ppo_mean_episode_reward_curve.png" alt="PPO mean episode reward curve" width="100%">
+</p>
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_089_03_figure_7_target_rare_disease_classification_rate.png" alt="Target rare disease classification rate" width="49%">
+  <img src="assets/notebook_outputs/cell_095_03_figure_8_fid_between_held_out_rare_images_and_generated_images.png" alt="FID comparison between real and generated images" width="49%">
+</p>
+
+### Feature-Space Visualization
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_099_01_figure_9_t_sne_feature_map_of_real_and_generated_rare_images.png" alt="t-SNE feature map of real and generated rare images" width="75%">
+</p>
+
+### Baseline vs PPO Sample Grids
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_103_01_notebook_plot.png" alt="Baseline cGAN samples for akiec" width="49%">
+  <img src="assets/notebook_outputs/cell_103_03_notebook_plot.png" alt="PPO-guided samples for akiec" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_103_05_notebook_plot.png" alt="Baseline cGAN samples for df" width="49%">
+  <img src="assets/notebook_outputs/cell_103_07_notebook_plot.png" alt="PPO-guided samples for df" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/notebook_outputs/cell_103_09_notebook_plot.png" alt="Baseline cGAN samples for vasc" width="49%">
+  <img src="assets/notebook_outputs/cell_103_11_notebook_plot.png" alt="PPO-guided samples for vasc" width="49%">
+</p>
 
 ## Overview
 
