@@ -337,17 +337,6 @@ Important limitations:
 - FID can be unstable for small rare-class sample sizes.
 - Human medical validation would be required for clinical use.
 
-## Future Improvements
-
-Potential future work:
-
-- Use StyleGAN2 or diffusion models for higher-resolution generation.
-- Add dermatologist or expert validation.
-- Evaluate with more medical image quality metrics.
-- Use an ensemble of classifiers for more reliable reward signals.
-- Add external validation datasets.
-- Improve rare-class FID with stronger distribution-aware rewards.
-
 ## Author
 
 Developed as a Deep Reinforcement Learning university project by **MOHAMED EL OUARDI** and **BOUCHOUA YOUSSEF**, supervised by Mr. Badr HIRCHOUA (ENSAM, Filière IAGI2).
