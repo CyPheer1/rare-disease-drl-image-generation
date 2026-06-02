@@ -10,7 +10,7 @@
 
 ## Notebook Visual Results
 
-These figures were extracted directly from `DRL_RESULT.ipynb` so they are visible on GitHub without opening the notebook.
+These figures were extracted directly from `dl-project-drl-notebook.ipynb` so they are visible on GitHub without opening the notebook.
 
 ### HAM10000 Class Imbalance
 
@@ -184,16 +184,16 @@ Metrics:
 
 ## Latest Completed Run Results
 
-The following table summarizes the latest completed run from `rare_generation_summary (1).csv`.
+The following table summarizes the latest completed run from `rare_generation_summary.csv`.
 
 | Class | Method | Target Rate | Mean Target Confidence | FID |
 |---|---:|---:|---:|---:|
-| `akiec` | baseline | 0.840 | 0.248 | **182.543** |
-| `akiec` | PPO | **1.000** | **0.441** | 188.211 |
-| `df` | baseline | 0.083 | 0.188 | **223.425** |
-| `df` | PPO | **1.000** | **0.455** | 276.833 |
-| `vasc` | baseline | 0.130 | 0.161 | **214.621** |
-| `vasc` | PPO | **1.000** | **0.747** | 381.099 |
+| `akiec` | baseline | 0.717 | 0.458 | **174.566** |
+| `akiec` | PPO | **1.000** | **0.873** | 182.291 |
+| `df` | baseline | 0.008 | 0.031 | **197.144** |
+| `df` | PPO | **1.000** | **0.768** | 217.628 |
+| `vasc` | baseline | 0.442 | 0.421 | **172.439** |
+| `vasc` | PPO | **1.000** | **0.986** | 174.631 |
 
 ## Result Interpretation
 
@@ -219,13 +219,13 @@ This makes the project more scientifically correct because the objective is not 
 The main notebook is:
 
 ```text
-DRL.ipynb
+dl-project-drl-notebook.ipynb
 ```
 
 The latest improved experiment version is:
 
 ```text
-rare_aware_v5_fid_balanced
+rare_aware_v11_fid_balanced
 ```
 
 This version focuses on balancing:
@@ -240,10 +240,8 @@ This version focuses on balancing:
 
 ```text
 DL-PROJECT/
-├── DRL.ipynb
-├── result2.ipynb
+├── dl-project-drl-notebook.ipynb
 ├── rare_generation_summary.csv
-├── rare_generation_summary (1).csv
 ├── assets/
 │   └── architecture.svg
 └── README.md
@@ -258,7 +256,7 @@ Open Kaggle and create a new notebook.
 Upload:
 
 ```text
-DRL.ipynb
+dl-project-drl-notebook.ipynb
 ```
 
 ### 2. Add Dataset
@@ -352,7 +350,7 @@ Potential future work:
 
 ## Author
 
-Developed as a Deep Reinforcement Learning university project.
+Developed as a Deep Reinforcement Learning university project by **MOHAMED EL OUARDI** and **BOUCHOUA YOUSSEF**, supervised by Mr. Badr HIRCHOUA (ENSAM, Filière IAGI2).
 
 ## License
 
