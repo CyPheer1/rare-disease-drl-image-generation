@@ -6,7 +6,6 @@
 
 ![DRL-guided rare disease medical image generation architecture](assets/architecture.svg)
 
-
 ## Notebook Visual Results
 
 These figures were extracted directly from `dl-project-drl-notebook.ipynb` so they are visible on GitHub without opening the notebook.
