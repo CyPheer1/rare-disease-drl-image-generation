@@ -83,13 +83,6 @@ The project combines:
 
 The main goal is to improve rare disease image generation by guiding the generator toward latent regions that produce medically recognizable rare-class samples.
 
-## Repository Name 
-
-Best option:
-
-```text
-rare-disease-drl-image-generation
-```
 
 ## Project Objective
 
