@@ -1,6 +1,6 @@
 # Medical Image Generation for Rare Diseases using Deep Reinforcement Learning
 
-> **Recommended GitHub repository name:** `rare-disease-drl-image-generation`
+> **GitHub repository name:** `rare-disease-drl-image-generation`
 
 ## Project Architecture
 
