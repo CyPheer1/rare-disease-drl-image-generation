@@ -4,7 +4,7 @@
 
 ## Project Architecture
 
-![DRL-guided rare disease medical image generation architecture](assets/architecture.svg)
+![DRL-guided rare disease medical image generation architecture](assets/architecture.png)
 
 ## Notebook Visual Results
 
