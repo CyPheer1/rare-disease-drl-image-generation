@@ -323,7 +323,7 @@ Important limitations:
 
 ## Author
 
-Developed as a Deep Reinforcement Learning university project by **MOHAMED EL OUARDI** and **BOUCHOUA YOUSSEF**, supervised by Mr. Badr HIRCHOUA (ENSAM, Filière IAGI2).
+Developed as a Deep Reinforcement Learning university project by **MOHAMED EL OUARDI**, supervised by Mr. Badr HIRCHOUA (ENSAM, Filière IAGI2).
 
 ## License
 
